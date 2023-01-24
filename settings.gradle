@@ -1,1 +1,4 @@
 rootProject.name = 'stage2-build-tools-gradle'
+include 'utils'
+include 'demo'
+
