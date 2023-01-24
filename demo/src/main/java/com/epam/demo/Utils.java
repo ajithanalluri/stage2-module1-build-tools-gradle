@@ -16,7 +16,7 @@ public class Utils {
         try {
             List<Integer> integerArgs = args.stream().map(Integer::parseInt).collect(Collectors.toList());
             for (int i : integerArgs) {
-                if (i < 0) {
+                if (i <= 0) {
                     isAll += 1;
                 }
             }
